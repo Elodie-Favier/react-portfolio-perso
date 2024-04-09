@@ -1,36 +1,35 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Elo Dev!",
+		name: "Elodie Favier",
+		email: "radada@mail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		twitter: "",
+		github: "https://github.com/Elodie-Favier",
+		linkedin: "https://www.linkedin.com/in/elodie-favier/",
+		instagram: "",
+		stackoverflow: "",
+		facebook: "",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Développeuse front-end, blabla",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Ce que j’aime dans le métier de développeuse ? Il y a toujours des problèmes à résoudre, toujours des choses à apprendre et l’ennui n’y pas sa place. ",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Bonjour, je m'appelle Elodie.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Formée chez Openclassroom pendant un an, j’ai réalisé 12 projets professionnalisants. Je continue à me former et à réaliser des projets. Ces expériences ont plus que confirmé mon intérêt pour le code. Ce que j’aime dans le métier de développeuse ? Il y a toujours des problèmes à résoudre, toujours des choses à apprendre et l’ennui n’y pas sa place. C’est une sensation tellement intense de voir son code fonctionner après avoir passer la journée dessus. Je pense sincèrement que tout développeur débutant ou confirmé me rejoindra sur ce point. Dans mon ancienne vie professionnelle, j’ai été archiviste pendant 13 ans. J’y ai puisé de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très différentes en plus de gérer les archives comme organiser et superviser des déménagements, de la gestion de projets sur de la dématérialisation, de la formation et du support utilisateurs. J’ai travaillé pour des institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+		title: "y'en a pas",
+		description: "undefinied",
 	},
 
 	projects: [
