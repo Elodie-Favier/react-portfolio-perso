@@ -39,21 +39,12 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Mes derniers projets
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							J'ai travaillé sur des projets très différents. Certains nécessitant uniquement du HTML 5 et du CSS et d'autres plus complexes avec JS, REACT ou REDUX. Je suis fière des progrès que j'ai fait au cours de ces travaux. 
+							Je suis très sensible à la question de l'accessibilité des sites et à leurs sperformances. Pour la plupart de ces projets, vous pouvez acceder au code via Github juste en cliquant sur la carte du projet. Si vous êtes intéressé par un projet, n'hésitez pas à me contacter via Linkedin. Je serais ravie de discuter d'une collaboration avec vous. 
 						</div>
 
 						<div className="projects-list">

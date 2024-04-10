@@ -1,25 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+
 
 import "./styles/homepage.css";
 
@@ -113,17 +102,24 @@ const Homepage = () => {
 							</div>
 						</div>
 
+<div className="homepage-skills">
+<div className="project-logo">
+							<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png" alt="logo html 5" />
+							<img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="logo css" />
+							<img src="https://www.cdnlogo.com/logos/s/90/sass.svg" alt="logo sass" />
+							<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" alt="logo javascript" />
+							<img src="https://www.cdnlogo.com/logos/r/85/react.svg" alt="logo react" />
+							<img src="https://www.cdnlogo.com/logos/r/69/redux.svg" alt="logo redux" />
+							
+						</div>
+				<div className="project-logo">
+				<img src="https://www.cdnlogo.com/logos/g/60/google-lighthouse.svg" alt="logo" />
+				<img src="https://www.cdnlogo.com/logos/s/15/swaggerhub.svg" alt="logo" />
+							<img src="https://www.cdnlogo.com/logos/f/43/figma.svg" alt="logo" />
+				</div>
+
+</div>
 						<div className="homepage-socials">
-							{/* <a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a> */}
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -133,67 +129,9 @@ const Homepage = () => {
 									icon={faGithub}
 									className="homepage-social-icon"
 								/>
-							</a>
-							{/* <a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							{/* <a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
+							</a>	
 						</div>
-
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
-							</div>
-						</div>
-
-						<div className="page-footer">
+					<div className="page-footer">
 							<Footer />
 						</div>
 					</div>

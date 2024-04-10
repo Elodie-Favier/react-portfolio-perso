@@ -19,7 +19,7 @@ const INFO = {
 	about: {
 		title: "Bonjour, je m'appelle Elodie.",
 		description:
-			"Formée chez Openclassroom pendant un an, j’ai réalisé 12 projets professionnalisants. Je continue à me former et à réaliser des projets. Ces expériences ont plus que confirmé mon intérêt pour le code. Ce que j’aime dans le métier de développeuse ? Il y a toujours des problèmes à résoudre, toujours des choses à apprendre et l’ennui n’y pas sa place. C’est une sensation tellement intense de voir son code fonctionner après avoir passer la journée dessus. Je pense sincèrement que tout développeur débutant ou confirmé me rejoindra sur ce point. Dans mon ancienne vie professionnelle, j’ai été archiviste pendant 13 ans. J’y ai puisé de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très différentes en plus de gérer les archives comme organiser et superviser des déménagements, de la gestion de projets sur de la dématérialisation, de la formation et du support utilisateurs. J’ai travaillé pour des institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels",
+			"Après une longue vie professionnelle en tant qu'archiviste, j'ai modifié mon router pour suivre une formation d'un an chez Openclassroom. A travers la réalisation de 12 projets, je me suis vraiment découvert la passion du code. J'adore ce métier parce qu'il y a toujours à apprendre. Dans mon ancienne vie professionnelle, j’ai acquis de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très différentes en plus de gérer les archives et j'ai travaillé pour des employeurs très différents(institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels). Je pense qu'il est juste de dire que j'aime bien sortir de ma zone de confort. ",
 	},
 
 	projects: [
@@ -27,41 +27,53 @@ const INFO = {
 			title: "Oh My food",
 			description:
 				"Site de commande de repas en ligne, créé en mobile first avec des animations CSS.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
+			logo2: "https://www.cdnlogo.com/logos/s/90/sass.svg",
 			image: "../omf-1.png",
-			link: "https://github.com",
+			link: "https://github.com/Elodie-Favier/OC_OMF",
 		},
 
 		{
 			title: "Kasa",
 			description: "Site de location immobilière réalisé en React",
-			logo: "https://www.cdnlogo.com/logos/r/85/react.svg",
-			linkText: "View Project",
-			link: "https://github.com",
+			logo1: "https://www.cdnlogo.com/logos/r/85/react.svg",
+			logo2: "https://www.cdnlogo.com/logos/s/90/sass.svg",
+			image: "../kasa-1.png",
+			link: "https://github.com/Elodie-Favier/application_web_location_immo_React",
 		},
-
 		{
-			title: "Portfolio de Sophie Bluel",
-			description: "Site professionnel de l'architecte Sophie Bluel",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			title: "Nina Carducci",
+			description:
+				" Optimisation et référencement d'un site professionnel de photographe  ",
+			logo1: "https://www.cdnlogo.com/logos/c/18/css.svg",
+			logo2: "https://www.cdnlogo.com/logos/g/60/google-lighthouse.svg",
+			image: "../nina-1.png",
+			link: "https://github.com/Elodie-Favier/NINA-CARDUCCI",
 		},
-
+		{
+			title: "Sophie Bluel",
+			description: " Site professionnel d'une architecte ",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo2: "https://www.cdnlogo.com/logos/s/15/swaggerhub.svg",
+			image: "../SBluel-1.png",
+			link: "https://github.com/Elodie-Favier/OC_SoBluel",
+		},
 		{
 			title: "724 Events",
 			description: " Débugage du site d'une agence évenementielle. ",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo2: "https://www.cdnlogo.com/logos/c/18/css.svg",
+			image: "../724Events-1.png",
+			link: "https://github.com/Elodie-Favier/724Events",
 		},
 
 		{
 			title: "Argent Bank",
 			description: "Site bancaire construit avec React, Vite et Redux.",
-			logo: "https://www.cdnlogo.com/logos/r/37/redux.svg",
-			linkText: "View Project",
-			link: "https://github.com",
+			logo1: "https://www.cdnlogo.com/logos/r/85/react.svg",
+			logo2: "https://www.cdnlogo.com/logos/r/69/redux.svg",
+			image: "../argent-Bank-1.png",
+			link: "https://github.com/Elodie-Favier/ArgentBank-website",
 		},
 	],
 };
