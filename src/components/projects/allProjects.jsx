@@ -17,6 +17,7 @@ const AllProjects = () => {
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
+						image={project.image}
 					/>
 				</div>
 			))}
