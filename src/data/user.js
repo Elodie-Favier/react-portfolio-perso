@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Elo Dev!",
+		title: "Elodie Favier Dev",
 		name: "Elodie Favier",
-		logo: "../mon_logo.png",
+		logo: "../mon_logo.webp",
 	},
 
 	socials: {
@@ -29,7 +29,7 @@ const INFO = {
 				"Site de commande de repas en ligne, créé en mobile first avec des animations CSS.",
 			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png",
 			logo2: "https://www.cdnlogo.com/logos/s/90/sass.svg",
-			image: "../omf-1.png",
+			image: "../omf-1.webp",
 			link: "https://github.com/Elodie-Favier/OC_OMF",
 		},
 
@@ -38,7 +38,7 @@ const INFO = {
 			description: "Site de location immobilière réalisé en React",
 			logo1: "https://www.cdnlogo.com/logos/r/85/react.svg",
 			logo2: "https://www.cdnlogo.com/logos/s/90/sass.svg",
-			image: "../kasa-1.png",
+			image: "../kasa-1.webp",
 			link: "https://github.com/Elodie-Favier/application_web_location_immo_React",
 		},
 		{
@@ -47,7 +47,7 @@ const INFO = {
 				" Optimisation et référencement d'un site professionnel de photographe  ",
 			logo1: "https://www.cdnlogo.com/logos/c/18/css.svg",
 			logo2: "https://www.cdnlogo.com/logos/g/60/google-lighthouse.svg",
-			image: "../nina-1.png",
+			image: "../nina-1.webp",
 			link: "https://github.com/Elodie-Favier/NINA-CARDUCCI",
 		},
 		{
@@ -55,7 +55,7 @@ const INFO = {
 			description: " Site professionnel d'une architecte ",
 			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			logo2: "https://www.cdnlogo.com/logos/s/15/swaggerhub.svg",
-			image: "../SBluel-1.png",
+			image: "../SBluel-1.webp",
 			link: "https://github.com/Elodie-Favier/OC_SoBluel",
 		},
 		{
@@ -63,7 +63,7 @@ const INFO = {
 			description: " Débugage du site d'une agence évenementielle. ",
 			logo1: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			logo2: "https://www.cdnlogo.com/logos/c/18/css.svg",
-			image: "../724Events-1.png",
+			image: "../724Events-1.webp",
 			link: "https://github.com/Elodie-Favier/724Events",
 		},
 
@@ -72,7 +72,7 @@ const INFO = {
 			description: "Site bancaire construit avec React, Vite et Redux.",
 			logo1: "https://www.cdnlogo.com/logos/r/85/react.svg",
 			logo2: "https://www.cdnlogo.com/logos/r/69/redux.svg",
-			image: "../argent-Bank-1.png",
+			image: "../argent-Bank-1.webp",
 			link: "https://github.com/Elodie-Favier/ArgentBank-website",
 		},
 	],

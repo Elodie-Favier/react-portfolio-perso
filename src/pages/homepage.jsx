@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
@@ -59,6 +59,7 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
+			<HelmetProvider>
 			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -67,6 +68,7 @@ const Homepage = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
+			</HelmetProvider>
 
 			<div className="page-content">
 				<NavBar active="home" />
@@ -93,7 +95,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="couv.png"
+											src="couv.webp"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -127,6 +129,7 @@ const Homepage = () => {
 		href={INFO.socials.github}
 		target="_blank"
 		rel="noreferrer"
+		aria-label="lien vers Github"
 	>
 		<FontAwesomeIcon
 			icon={faGithub}
@@ -137,6 +140,7 @@ const Homepage = () => {
 		href={INFO.socials.linkedin}
 		target="_blank"
 		rel="noreferrer"
+		aria-label="lien vers linkedin"
 	>
 		<FontAwesomeIcon
 			icon={faLinkedin}
