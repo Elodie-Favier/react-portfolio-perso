@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -103,37 +103,51 @@ const Homepage = () => {
 						</div>
 
 <div className="homepage-skills">
-<div className="project-logo">
-							<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png" alt="logo html 5" />
-							<img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="logo css" />
-							<img src="https://www.cdnlogo.com/logos/s/90/sass.svg" alt="logo sass" />
-							<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" alt="logo javascript" />
-							<img src="https://www.cdnlogo.com/logos/r/85/react.svg" alt="logo react" />
-							<img src="https://www.cdnlogo.com/logos/r/69/redux.svg" alt="logo redux" />
-							
-						</div>
-				<div className="project-logo">
-				<img src="https://www.cdnlogo.com/logos/g/60/google-lighthouse.svg" alt="logo" />
-				<img src="https://www.cdnlogo.com/logos/s/15/swaggerhub.svg" alt="logo" />
-							<img src="https://www.cdnlogo.com/logos/f/43/figma.svg" alt="logo" />
-				</div>
+	<div className="skills-logo">
+		<img src="https://www.cdnlogo.com/logos/h/84/html.svg" alt="logo html 5" />
+		<img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="logo css" />
+		<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" alt="logo javascript" />
+		<img src="https://www.cdnlogo.com/logos/n/49/node-js.svg" alt="logo node JS" />
+		<img src="https://www.cdnlogo.com/logos/r/85/react.svg" alt="logo react" />
+		<img src="https://www.cdnlogo.com/logos/v/23/vitejs.svg" alt="logo vite" />
+		<img src="https://www.cdnlogo.com/logos/r/69/redux.svg" alt="logo redux" />
+		<img src="https://www.cdnlogo.com/logos/m/30/mongodb-icon.svg" alt="logo mongo db" />
+								
+	</div>
+	<div className="skills-logo">
+		<img src="https://www.cdnlogo.com/logos/s/90/sass.svg" alt="logo sass" />
+		<img src="https://www.cdnlogo.com/logos/g/60/google-lighthouse.svg" alt="logo lighthouse" />
+		<img src="https://www.cdnlogo.com/logos/s/15/swaggerhub.svg" alt="logo swagger" />
+		<img src="https://www.cdnlogo.com/logos/f/43/figma.svg" alt="logo Figma" />
+	</div>
 
 </div>
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>	
-						</div>
-					<div className="page-footer">
-							<Footer />
-						</div>
+<div className="homepage-socials">
+	<a
+		href={INFO.socials.github}
+		target="_blank"
+		rel="noreferrer"
+	>
+		<FontAwesomeIcon
+			icon={faGithub}
+			className="homepage-social-icon"
+			/>
+	</a>	
+	<a
+		href={INFO.socials.linkedin}
+		target="_blank"
+		rel="noreferrer"
+	>
+		<FontAwesomeIcon
+			icon={faLinkedin}
+			className="homepage-social-icon"
+		/>
+	</a>
+</div>
+
+<div className="page-footer">
+	<Footer />
+</div>
 					</div>
 				</div>
 			</div>

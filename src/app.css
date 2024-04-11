@@ -44,8 +44,12 @@
 }
 
 .content-wrapper {
+	display: flex;
 	max-width: 1000px;
 	margin: 0 auto;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .title {

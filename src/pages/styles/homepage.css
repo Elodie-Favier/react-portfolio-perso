@@ -50,11 +50,25 @@
 .homepage-image-wrapper img {
 	width: 100%;
 }
+.homepage-skills {
+	padding: 10px;
+}
+.skills-logo {
+	width: 50px;
+	display: flex;
+	padding-bottom: 10px;
+}
 
+.skills-logo img {
+	width: 100%;
+	margin-right: 10px;
+}
 .homepage-socials {
 	display: flex;
+	flex-direction: row;
 	justify-content: left;
 	align-items: center;
+	padding-left: 10px;
 	padding-top: 30px;
 }
 
@@ -96,6 +110,7 @@
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
+		margin-bottom: 1em;
 	}
 
 	.homepage-first-area-left-side {
@@ -134,7 +149,7 @@
 		flex-direction: column;
 	}
 
-	.homepage-projects {
+	.skills-logo {
 		flex-basis: auto;
 	}
 
@@ -146,5 +161,10 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+@media (max-width: 600px) {
+	.skills-logo {
+		width: 35px;
 	}
 }
