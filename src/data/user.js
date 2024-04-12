@@ -19,7 +19,7 @@ const INFO = {
 	about: {
 		title: "Bonjour, je m'appelle Elodie.",
 		description:
-			"Après une longue vie professionnelle en tant qu'archiviste, j'ai modifié mon router pour suivre une formation d'un an chez Openclassroom. A travers la réalisation de 12 projets, je me suis vraiment découvert la passion du code. J'adore ce métier parce qu'il y a toujours à apprendre. Dans mon ancienne vie professionnelle, j’ai acquis de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très différentes en plus de gérer les archives et j'ai travaillé pour des employeurs très différents(institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels). Je pense qu'il est juste de dire que j'aime bien sortir de ma zone de confort. ",
+			"Après une longue vie professionnelle en tant qu'archiviste, j'ai modifié mon router pour suivre une formation d'un an chez Openclassroom. A travers la réalisation de 12 projets, je me suis vraiment découvert la passion du code. J'adore ce métier parce qu'il y a toujours à apprendre. Dans mon ancienne vie professionnelle, j’ai acquis de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très variées en plus de gérer les archives et j'ai travaillé pour des employeurs très différents(institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels). Je pense qu'il est juste de dire que j'aime bien sortir de ma zone de confort. ",
 	},
 
 	projects: [
@@ -38,7 +38,7 @@ const INFO = {
 			description: "Site de location immobilière réalisé en React",
 			logo1: "https://www.cdnlogo.com/logos/r/85/react.svg",
 			logo2: "https://www.cdnlogo.com/logos/s/90/sass.svg",
-			image: "../kasa-1.webp",
+			image: "../Kasa-1.webp",
 			link: "https://github.com/Elodie-Favier/application_web_location_immo_React",
 		},
 		{
