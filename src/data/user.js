@@ -13,13 +13,13 @@ const INFO = {
 	homepage: {
 		title: "Elodie Favier, développeuse front-end",
 		description:
-			"Ce que j’aime dans le métier de développeuse ? Il y a toujours des problèmes à résoudre, toujours des choses à apprendre et l’ennui n’y pas sa place. ",
+			"Ce que j’aime dans le métier de développeuse ? Il y a toujours des problèmes à résoudre, toujours des choses à apprendre et l’ennui n'a pas de place. ",
 	},
 
 	about: {
 		title: "Bonjour, je m'appelle Elodie.",
 		description:
-			"Après une longue vie professionnelle en tant qu'archiviste, j'ai modifié mon router pour suivre une formation d'un an chez Openclassroom. A travers la réalisation de 12 projets, je me suis vraiment découvert la passion du code. J'adore ce métier parce qu'il y a toujours à apprendre. Dans mon ancienne vie professionnelle, j’ai acquis de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très variées en plus de gérer les archives et j'ai travaillé pour des employeurs très différents(institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels). Je pense qu'il est juste de dire que j'aime bien sortir de ma zone de confort. ",
+			"Après une longue vie professionnelle en tant qu'archiviste, j'ai modifié mon router pour suivre une formation d'un an chez Openclassroom. A travers la réalisation de 12 projets, je me suis découvert une vraie passion pour le code. J'adore ce métier parce qu'il y a toujours à apprendre. Dans mon ancienne vie professionnelle, j’ai acquis de nombreuses ressources telles que l’autonomie et l’esprit d’équipe, la curiosité, l’humour et une très forte capacité d’intégration. J’ai fait des choses très variées en plus de gérer les archives et j'ai travaillé pour des employeurs très différents(institutions publiques, des ONG, des cabinets d’avocats et des ordres professionnels). Je pense qu'il est juste de dire que j'aime bien sortir de ma zone de confort. ",
 	},
 
 	projects: [

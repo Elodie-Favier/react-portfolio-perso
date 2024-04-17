@@ -43,7 +43,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-						J'ai travaillé sur des projets très différents. Certains nécessitant uniquement du HTML 5 et du CSS et d'autres plus complexes avec JS, REACT ou REDUX. Je suis fière des progrès que j'ai fait au cours de ces travaux. Je suis très sensible à la question de l'accessibilité des sites et à leurs performances. Pour la plupart de ces projets, vous pouvez accéder au code via Github juste en cliquant sur la carte du projet. Si vous êtes intéressé par un projet, n'hésitez pas à me contacter via Linkedin. Je serais ravie de discuter d'une collaboration avec vous.
+						J'ai travaillé sur des projets très différents. Certains nécessitant uniquement du HTML 5 et du CSS et d'autres plus complexes avec JS, REACT ou REDUX. Je suis fière des progrès que j'ai fait au cours de ces travaux. Je suis très sensible à la question de l'accessibilité des sites et à leurs performances. Pour la plupart de ces projets, vous pouvez accéder au code via Github juste en cliquant sur la carte du projet. 
  
 						</div>
 
